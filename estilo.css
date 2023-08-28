@@ -1,0 +1,16 @@
+.contenedor-header {
+    display: flex;
+    background-color: #1F2937;
+    flex: auto;
+    height: 300px;
+}
+
+.contenedor-nav {
+    display: flex;
+    -ms-flex-item-align: end;
+}
+
+
+* {
+   color: aliceblue; 
+}
