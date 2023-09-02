@@ -1,6 +1,10 @@
 @font-face {
       font-family: pixelada;
-      src: url(./fuentes/rainyhearts.ttf);
+      src: url(./fuentes/pixelmix.ttf);
+}
+
+* {
+      font-family: pixelada;
 }
 
 body {
@@ -14,11 +18,21 @@ ul {
       display: flex;
       list-style: none;
       gap: 10px;
+      font-size: 12px;
 }
 
 a {
       text-decoration: none;
 }
+
+.contenedor-1,
+.contenedor-2,
+.contenedor-3,
+.contenedor-4 {
+      display: flex;
+      height: 30%;
+}
+
 
 .header {
       display: flex;
@@ -30,6 +44,14 @@ a {
       background-color: #96B6C5;
       color: #F1F0E8;
 }
+
+.header-logo {
+      font-size: 24px;
+      font-weight: 500;
+}
+
+
+
 
 .contenedor-1 {
       background-color: #96B6C5;   
@@ -48,25 +70,14 @@ a {
 }
 
 .footer {
+      display: flex;
+      height: 10%;
       background-color: #96B6C5;
 }
 
-.contenedor-1,
-.contenedor-2,
-.contenedor-3,
-.contenedor-4 {
-      display: flex;
-      height: 30%;
-}
 
-.footer {
-      display: flex;
-      height: 10%;
-}
+      
 
-.links-derecha {
-      display: flex;
-}
 
 
 
