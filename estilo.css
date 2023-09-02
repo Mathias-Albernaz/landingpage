@@ -1,4 +1,7 @@
-
+@font-face {
+      font-family: pixelada;
+      src: url(./fuentes/rainyhearts.ttf);
+}
 
 body {
       display: flex;
