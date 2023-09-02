@@ -25,10 +25,20 @@ a {
       text-decoration: none;
 }
 
+button {
+      display: flex;
+      width: fit-content;
+      padding: 2px;
+      background-color: #4F709C;
+      color: #F1F0E8;
+}
+
 .contenedor-1,
 .contenedor-2,
 .contenedor-3,
-.contenedor-4 {
+.contenedor-4,
+.sub-contenedor-derecha,
+.sub-contenedor-izquierda {
       display: flex;
       height: 30%;
 }
@@ -77,6 +87,11 @@ a {
 .titulo {
       font-size: 24px;
       font-weight: 800;
+}
+
+.sub-contenedor-izquierda {
+      flex-direction: column;
+      gap: 10px;
 }
 
 .sub-contenedor-derecha{
