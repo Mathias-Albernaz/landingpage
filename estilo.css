@@ -33,6 +33,7 @@ button {
       color: #F1F0E8;
       border: 2px solid #F1F0E8;
       align-items: center;
+      font-size: 25px;
 }
 
 img{
@@ -54,7 +55,8 @@ img{
 .contenedor-3,
 .contenedor-4,
 .sub-contenedor-derecha,
-.sub-contenedor-izquierda {
+.sub-contenedor-izquierda,
+.container-caja {
       display: flex;
       height: 30%;
 }
@@ -92,7 +94,7 @@ img{
       padding: 15px;
       padding-left: 10%;
       padding-right: 10%;
-      gap: 10px;
+      gap: 30px;
 }
 
 .contenedor-3 {
@@ -110,8 +112,16 @@ img{
 }
 
 .titulo {
-      font-size: 30px;
+      font-size: 45px;
       font-weight: 800;
+}
+
+.texto {
+      font-size: 25px;
+}
+
+.titulo2 {
+      font-size: 30px;
 }
 
 .sub-contenedor-izquierda {
@@ -139,13 +149,14 @@ img{
       width: 300px;
       border: 2px solid black;
       object-fit: cover;
+      box-shadow: 4px 6px #6e6836;
 }
 
-
-.textocaja{
+.container-caja {
+      flex-direction: column;
       text-align: center;
-      width: 150px;
-      margin: 0;
+      font-size: 20px;
+      gap: 20px;
 }
 
 .imagen2{
