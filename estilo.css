@@ -10,7 +10,7 @@
 body {
       display: flex;
       flex-direction: column;
-      height:180vh; 
+      height: fit-content;
       margin: 0;
 }
 
@@ -35,13 +35,17 @@ button {
       align-items: center;
 }
 
-img {
+img{
+      max-width: 100%;
+      height: auto;
+}
+
+.imagen1 {
       display: flex;
-      object-fit: contain;
+      object-fit:contain;
       max-width: 100%;
       max-height: 100%;
       border-radius: 5px;
-      
       box-shadow: 2px 4px #405a7d ;
 }
 
@@ -134,6 +138,7 @@ img {
       height: 150px;
       width: 150px;
       border: 2px solid black;
+      object-fit: cover;
 }
 
 
@@ -141,6 +146,11 @@ img {
       text-align: center;
       width: 150px;
       margin: 0;
+}
+
+.imagen2{
+      display: flex;
+      object-fit:cover;
 }
 
 
