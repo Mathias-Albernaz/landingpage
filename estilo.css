@@ -215,9 +215,15 @@ img{
 
 .footer {
       display: flex;
-      height: 10%;
-      background-color: #96B6C5;
+      color:#7c96a1;
+      background-color: #bddae7;
+      padding: 2%;
+      justify-content: center;
+      align-items: center;
+      font-size: smaller;
 }
+
+
 
 
 
