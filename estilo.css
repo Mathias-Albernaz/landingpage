@@ -176,6 +176,41 @@ img{
 
 .contenedor-4 {
       background-color: #F4F2DE;
+      justify-content: center;
+      align-items: center;
+      min-height: fit-content;
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: 5%;
+      padding-bottom: 5%;
+}
+
+.sub-contenedor-4 {
+      display:flex;
+      background-color: #96B6C5;
+      color: #F1F0E8;
+      height: 100PX;
+      width: 900PX;
+      align-items: center;
+      justify-content: space-around;
+      padding: 1%;
+}
+
+.texto4 {
+      display: flex;
+      flex-direction: column;
+}
+
+.texto4-2 {
+      font-size: ;
+}
+
+.boton4 {
+      display: flex;
+      font-size: 18px;
+      padding: 1%;
+      border-radius: 5px;
+      align-items: center;
 }
 
 .footer {
