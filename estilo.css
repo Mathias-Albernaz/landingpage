@@ -89,35 +89,6 @@ img{
       justify-content: space-between;
 }
 
-.contenedor-2 {
-      background-color: #F4F2DE;
-      flex-direction: column;
-      align-items: center;
-      padding: 15px;
-      padding-left: 10%;
-      padding-right: 10%;
-      gap: 30px;
-}
-
-.contenedor-3 {
-      background-color: #E9B384;
-}
-
-.contenedor-4 {
-      background-color: #F4F2DE;
-}
-
-.footer {
-      display: flex;
-      height: 10%;
-      background-color: #96B6C5;
-}
-
-.titulo {
-      font-size: 45px;
-      font-weight: 800;
-}
-
 .texto {
       font-size: 25px;
 }
@@ -137,6 +108,21 @@ img{
       justify-content: flex-end;
       object-fit: contain;
       min-height: 85%;
+}
+
+.titulo {
+      font-size: 45px;
+      font-weight: 800;
+}
+
+.contenedor-2 {
+      background-color: #F4F2DE;
+      flex-direction: column;
+      align-items: center;
+      padding: 15px;
+      padding-left: 10%;
+      padding-right: 10%;
+      gap: 30px;
 }
 
 .cajas2 {
@@ -165,6 +151,44 @@ img{
       display: flex;
       object-fit:cover;
 }
+
+.contenedor-3 {
+      background-color: #E9B384;
+      align-items: center;
+      padding: 30px;
+      padding-left: 10%;
+      padding-right: 10%;    
+}
+
+.sub-contenedor-3 {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      color: #5a3d2e;
+}
+
+.texto3-cita {
+      display: flex;
+      align-self: flex-end;
+      font-weight:bolder;
+      color: #3f2b20;
+}
+
+.contenedor-4 {
+      background-color: #F4F2DE;
+}
+
+.footer {
+      display: flex;
+      height: 10%;
+      background-color: #96B6C5;
+}
+
+
+
+
+
+
 
 
 
